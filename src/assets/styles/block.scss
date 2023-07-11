@@ -1,0 +1,103 @@
+.b_about_us-left {
+  padding-right: 3.75rem;
+}
+
+.b_about_us-left-title {
+  line-height: 3.125rem;
+}
+
+.b_about_us-left-description {
+  margin-top: 1.5625rem;
+  font-size: 1.125rem;
+}
+
+.b_testimonials {
+  margin-top: 4.0625rem;
+}
+
+.b_testimonials-left,
+.b_testimonials-middle,
+.b_testimonials-right {
+  width: 31%;
+  padding: 1.875rem;
+  border-radius: 0.5rem;
+  height: max-content;
+}
+
+.b_testimonials-middle {
+  margin-top: 1.25rem;
+}
+
+.b_testimonials-right {
+  margin-top: 2.5rem;
+}
+
+.b_testimonials-middle_header {
+  display: flex;
+}
+
+.b_about_us-right-star_container {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.b_about_us-right-star_container_top {
+  margin-left: -100px;
+}
+
+.b_about_us-right-star_container_middle {
+  margin-left: -50px;
+}
+
+.b_about_us-right-star_container_bottom {
+  margin-left: 0px;
+}
+
+.b_about_us-right-star_text {
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1182px) {
+  .b_about_us-right-star_text {
+    margin-top: 10px;
+  }
+
+  .b_testimonials {
+    margin-top: 30px;
+  }
+
+  .b_about_us-right-star_container_top {
+    margin-top: 35px;
+    margin-left: 0px;
+  }
+
+  .b_about_us-right-star_container_middle {
+    margin-left: 0px;
+  }
+
+  .b_about_us-left {
+    padding: 0;
+  }
+
+  .b_testimonials-left,
+  .b_testimonials-middle,
+  .b_testimonials-right {
+    width: 100%;
+  }
+
+  .b_about_us-left-title {
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+
+  .b_about_us-left-description {
+    text-align: center;
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+}

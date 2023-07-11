@@ -1,0 +1,68 @@
+.l_container {
+  min-height: 100vh;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l_card {
+  margin: 2.5rem 13.75rem;
+}
+
+.l_about_us {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l_about_us-left {
+  width: 40%;
+}
+
+.l_about_us-right {
+  width: 60%;
+}
+
+.l_testimonials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l_about_us-right-star {
+  display: flex;
+}
+
+.l_about_us-right-star_container {
+  display: flex;
+  align-items: center;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 1182px) {
+  .l_about_us-right-star_container {
+    flex-direction: column;
+  }
+
+  .l_card {
+    margin: 2.5rem 20px;
+  }
+
+  .l_about_us {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .l_testimonials {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .l_about_us-left {
+    width: 100%;
+  }
+
+  .l_about_us-right {
+    width: 100%;
+  }
+}

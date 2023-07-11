@@ -1,0 +1,80 @@
+@use 'constants';
+
+.u_color-very-dark-magenta {
+  color: constants.$color-very-dark-magenta;
+}
+
+.u_bg-very-dark-magenta {
+  background-color: constants.$color-very-dark-magenta;
+}
+
+.u_color-pink {
+  color: constants.$color-pink;
+}
+
+.u_bg-pink {
+  background-color: constants.$color-pink;
+}
+
+.u_color-grayish-magenta {
+  color: constants.$color-grayish-magenta;
+}
+
+.u_bg-grayish-magenta {
+  background-color: constants.$color-grayish-magenta;
+}
+
+.u_color-light-grayish-magenta {
+  color: constants.$color-light-grayish-magenta;
+}
+
+.u_bg-light-grayish-magenta {
+  background-color: constants.$color-light-grayish-magenta;
+}
+
+.u_color-light-white {
+  color: constants.$color-light-white;
+}
+
+.u_bg-light-white {
+  background-color: constants.$color-light-white;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.avatar {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.u_inline_block {
+  display: inline-block;
+}
+
+.u_font_weight {
+  font-weight: 500;
+}
+
+.u_p_25 {
+  padding: 25px;
+}
+
+.u_mr-5 {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1182px) {
+  .font-size-16 {
+    font-size: 13px;
+  }
+}
